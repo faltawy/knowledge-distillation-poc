@@ -1,0 +1,2439 @@
+{
+  "count": 500,
+  "used_combinations": [
+    [
+      "devops",
+      "CI/CD pipeline",
+      "moderate"
+    ],
+    [
+      "sales",
+      "deal closing",
+      "moderate"
+    ],
+    [
+      "compliance",
+      "regulatory filing",
+      "moderate"
+    ],
+    [
+      "sales",
+      "proposal creation",
+      "simple"
+    ],
+    [
+      "restaurant",
+      "inventory ordering",
+      "moderate"
+    ],
+    [
+      "warehouse",
+      "shipping preparation",
+      "complex"
+    ],
+    [
+      "legal",
+      "contract review",
+      "complex"
+    ],
+    [
+      "government",
+      "public records request",
+      "simple"
+    ],
+    [
+      "hotel",
+      "housekeeping assignment",
+      "complex"
+    ],
+    [
+      "compliance",
+      "audit response",
+      "simple"
+    ],
+    [
+      "medical_admin",
+      "appointment booking",
+      "simple"
+    ],
+    [
+      "emergency_services",
+      "incident reporting",
+      "moderate"
+    ],
+    [
+      "medical_admin",
+      "billing process",
+      "moderate"
+    ],
+    [
+      "data_engineering",
+      "schema migration",
+      "moderate"
+    ],
+    [
+      "legal",
+      "document notarization",
+      "simple"
+    ],
+    [
+      "hotel",
+      "housekeeping assignment",
+      "simple"
+    ],
+    [
+      "technical_support",
+      "system restoration",
+      "moderate"
+    ],
+    [
+      "supply_chain",
+      "demand forecasting",
+      "moderate"
+    ],
+    [
+      "travel",
+      "itinerary creation",
+      "simple"
+    ],
+    [
+      "customer_support",
+      "complaint handling",
+      "simple"
+    ],
+    [
+      "patient_care",
+      "treatment planning",
+      "simple"
+    ],
+    [
+      "hotel",
+      "room service",
+      "simple"
+    ],
+    [
+      "property_management",
+      "rent collection",
+      "simple"
+    ],
+    [
+      "security",
+      "incident handling",
+      "moderate"
+    ],
+    [
+      "manufacturing",
+      "defect handling",
+      "simple"
+    ],
+    [
+      "hr",
+      "performance review",
+      "moderate"
+    ],
+    [
+      "patient_care",
+      "treatment planning",
+      "moderate"
+    ],
+    [
+      "lab_process",
+      "sample collection",
+      "simple"
+    ],
+    [
+      "it_support",
+      "hardware provisioning",
+      "complex"
+    ],
+    [
+      "hotel",
+      "check-out process",
+      "simple"
+    ],
+    [
+      "it_support",
+      "account creation",
+      "moderate"
+    ],
+    [
+      "manufacturing",
+      "defect handling",
+      "moderate"
+    ],
+    [
+      "marketing",
+      "social media posting",
+      "simple"
+    ],
+    [
+      "supply_chain",
+      "returns processing",
+      "moderate"
+    ],
+    [
+      "travel",
+      "itinerary creation",
+      "complex"
+    ],
+    [
+      "medical_admin",
+      "billing process",
+      "simple"
+    ],
+    [
+      "government",
+      "benefit eligibility",
+      "simple"
+    ],
+    [
+      "technical_support",
+      "issue diagnosis",
+      "simple"
+    ],
+    [
+      "compliance",
+      "violation handling",
+      "moderate"
+    ],
+    [
+      "software_development",
+      "feature deployment",
+      "simple"
+    ],
+    [
+      "supply_chain",
+      "demand forecasting",
+      "simple"
+    ],
+    [
+      "manufacturing",
+      "equipment maintenance",
+      "complex"
+    ],
+    [
+      "legal",
+      "case filing",
+      "moderate"
+    ],
+    [
+      "emergency_services",
+      "911 dispatch",
+      "simple"
+    ],
+    [
+      "data_engineering",
+      "data backup",
+      "complex"
+    ],
+    [
+      "emergency_services",
+      "recovery coordination",
+      "complex"
+    ],
+    [
+      "real_estate",
+      "offer negotiation",
+      "simple"
+    ],
+    [
+      "school_admin",
+      "report card generation",
+      "moderate"
+    ],
+    [
+      "devops",
+      "backup restoration",
+      "complex"
+    ],
+    [
+      "business_process",
+      "budget approval",
+      "simple"
+    ],
+    [
+      "student_services",
+      "grade submission",
+      "complex"
+    ],
+    [
+      "customer_support",
+      "escalation management",
+      "complex"
+    ],
+    [
+      "student_services",
+      "course registration",
+      "moderate"
+    ],
+    [
+      "warehouse",
+      "order picking",
+      "moderate"
+    ],
+    [
+      "property_management",
+      "rent collection",
+      "complex"
+    ],
+    [
+      "property_management",
+      "maintenance request",
+      "complex"
+    ],
+    [
+      "medical_admin",
+      "medical records transfer",
+      "moderate"
+    ],
+    [
+      "school_admin",
+      "enrollment verification",
+      "moderate"
+    ],
+    [
+      "business_process",
+      "invoice processing",
+      "simple"
+    ],
+    [
+      "event_planning",
+      "post-event review",
+      "moderate"
+    ],
+    [
+      "sales",
+      "pipeline management",
+      "complex"
+    ],
+    [
+      "devops",
+      "incident response",
+      "moderate"
+    ],
+    [
+      "business_process",
+      "invoice processing",
+      "moderate"
+    ],
+    [
+      "manufacturing",
+      "production planning",
+      "simple"
+    ],
+    [
+      "lab_process",
+      "result reporting",
+      "simple"
+    ],
+    [
+      "hr",
+      "hiring process",
+      "complex"
+    ],
+    [
+      "property_management",
+      "tenant screening",
+      "simple"
+    ],
+    [
+      "software_development",
+      "sprint planning",
+      "moderate"
+    ],
+    [
+      "government",
+      "permit application",
+      "moderate"
+    ],
+    [
+      "finance",
+      "financial reporting",
+      "moderate"
+    ],
+    [
+      "software_development",
+      "release management",
+      "simple"
+    ],
+    [
+      "sales",
+      "lead qualification",
+      "simple"
+    ],
+    [
+      "hr",
+      "employee offboarding",
+      "moderate"
+    ],
+    [
+      "patient_care",
+      "discharge process",
+      "simple"
+    ],
+    [
+      "event_planning",
+      "venue selection",
+      "complex"
+    ],
+    [
+      "restaurant",
+      "table management",
+      "moderate"
+    ],
+    [
+      "lab_process",
+      "test processing",
+      "simple"
+    ],
+    [
+      "legal",
+      "contract review",
+      "moderate"
+    ],
+    [
+      "hr",
+      "hiring process",
+      "moderate"
+    ],
+    [
+      "property_management",
+      "maintenance request",
+      "moderate"
+    ],
+    [
+      "software_development",
+      "release management",
+      "complex"
+    ],
+    [
+      "personal_finance",
+      "investment decision",
+      "moderate"
+    ],
+    [
+      "school_admin",
+      "attendance tracking",
+      "moderate"
+    ],
+    [
+      "patient_care",
+      "follow-up scheduling",
+      "complex"
+    ],
+    [
+      "hr",
+      "employee offboarding",
+      "complex"
+    ],
+    [
+      "legal",
+      "dispute resolution",
+      "moderate"
+    ],
+    [
+      "customer_support",
+      "service recovery",
+      "moderate"
+    ],
+    [
+      "business_process",
+      "budget approval",
+      "complex"
+    ],
+    [
+      "manufacturing",
+      "inventory restocking",
+      "simple"
+    ],
+    [
+      "legal",
+      "document notarization",
+      "complex"
+    ],
+    [
+      "it_support",
+      "software installation",
+      "moderate"
+    ],
+    [
+      "personal_finance",
+      "debt payment",
+      "simple"
+    ],
+    [
+      "finance",
+      "tax filing",
+      "simple"
+    ],
+    [
+      "finance",
+      "expense reimbursement",
+      "moderate"
+    ],
+    [
+      "event_planning",
+      "venue selection",
+      "moderate"
+    ],
+    [
+      "academic",
+      "research proposal",
+      "moderate"
+    ],
+    [
+      "student_services",
+      "transcript request",
+      "moderate"
+    ],
+    [
+      "supply_chain",
+      "supplier selection",
+      "complex"
+    ],
+    [
+      "finance",
+      "budget planning",
+      "complex"
+    ],
+    [
+      "hotel",
+      "check-out process",
+      "complex"
+    ],
+    [
+      "lab_process",
+      "quality control",
+      "moderate"
+    ],
+    [
+      "patient_care",
+      "treatment planning",
+      "complex"
+    ],
+    [
+      "warehouse",
+      "receiving goods",
+      "simple"
+    ],
+    [
+      "sales",
+      "customer follow-up",
+      "complex"
+    ],
+    [
+      "finance",
+      "tax filing",
+      "moderate"
+    ],
+    [
+      "academic",
+      "grant application",
+      "simple"
+    ],
+    [
+      "security",
+      "vulnerability assessment",
+      "simple"
+    ],
+    [
+      "supply_chain",
+      "supplier selection",
+      "simple"
+    ],
+    [
+      "legal",
+      "contract review",
+      "simple"
+    ],
+    [
+      "legal",
+      "case filing",
+      "simple"
+    ],
+    [
+      "devops",
+      "CI/CD pipeline",
+      "simple"
+    ],
+    [
+      "sales",
+      "pipeline management",
+      "moderate"
+    ],
+    [
+      "real_estate",
+      "property listing",
+      "complex"
+    ],
+    [
+      "patient_care",
+      "discharge process",
+      "complex"
+    ],
+    [
+      "personal_finance",
+      "insurance claim",
+      "complex"
+    ],
+    [
+      "legal",
+      "document notarization",
+      "moderate"
+    ],
+    [
+      "student_services",
+      "graduation clearance",
+      "simple"
+    ],
+    [
+      "emergency_services",
+      "911 dispatch",
+      "complex"
+    ],
+    [
+      "personal_finance",
+      "retirement planning",
+      "simple"
+    ],
+    [
+      "lab_process",
+      "quality control",
+      "simple"
+    ],
+    [
+      "school_admin",
+      "fee collection",
+      "complex"
+    ],
+    [
+      "real_estate",
+      "closing process",
+      "complex"
+    ],
+    [
+      "personal_finance",
+      "debt payment",
+      "moderate"
+    ],
+    [
+      "software_development",
+      "code review",
+      "complex"
+    ],
+    [
+      "security",
+      "access request",
+      "complex"
+    ],
+    [
+      "marketing",
+      "content approval",
+      "complex"
+    ],
+    [
+      "student_services",
+      "course registration",
+      "complex"
+    ],
+    [
+      "finance",
+      "financial reporting",
+      "simple"
+    ],
+    [
+      "warehouse",
+      "receiving goods",
+      "moderate"
+    ],
+    [
+      "property_management",
+      "tenant screening",
+      "moderate"
+    ],
+    [
+      "lab_process",
+      "test processing",
+      "moderate"
+    ],
+    [
+      "patient_care",
+      "medication dispensing",
+      "moderate"
+    ],
+    [
+      "business_process",
+      "budget approval",
+      "moderate"
+    ],
+    [
+      "it_support",
+      "network troubleshooting",
+      "simple"
+    ],
+    [
+      "devops",
+      "backup restoration",
+      "moderate"
+    ],
+    [
+      "security",
+      "incident handling",
+      "complex"
+    ],
+    [
+      "finance",
+      "tax filing",
+      "complex"
+    ],
+    [
+      "business_process",
+      "vendor evaluation",
+      "moderate"
+    ],
+    [
+      "manufacturing",
+      "inventory restocking",
+      "moderate"
+    ],
+    [
+      "hotel",
+      "room service",
+      "moderate"
+    ],
+    [
+      "student_services",
+      "scholarship application",
+      "moderate"
+    ],
+    [
+      "event_planning",
+      "post-event review",
+      "complex"
+    ],
+    [
+      "business_process",
+      "vendor evaluation",
+      "complex"
+    ],
+    [
+      "supply_chain",
+      "shipment tracking",
+      "moderate"
+    ],
+    [
+      "event_planning",
+      "event execution",
+      "moderate"
+    ],
+    [
+      "technical_support",
+      "user training",
+      "complex"
+    ],
+    [
+      "hr",
+      "employee offboarding",
+      "simple"
+    ],
+    [
+      "real_estate",
+      "offer negotiation",
+      "moderate"
+    ],
+    [
+      "property_management",
+      "rent collection",
+      "moderate"
+    ],
+    [
+      "devops",
+      "incident response",
+      "complex"
+    ],
+    [
+      "marketing",
+      "brand review",
+      "simple"
+    ],
+    [
+      "government",
+      "benefit eligibility",
+      "moderate"
+    ],
+    [
+      "it_support",
+      "hardware provisioning",
+      "simple"
+    ],
+    [
+      "business_process",
+      "contract negotiation",
+      "complex"
+    ],
+    [
+      "warehouse",
+      "storage allocation",
+      "complex"
+    ],
+    [
+      "academic",
+      "publication process",
+      "simple"
+    ],
+    [
+      "personal_finance",
+      "loan application",
+      "complex"
+    ],
+    [
+      "software_development",
+      "code review",
+      "simple"
+    ],
+    [
+      "manufacturing",
+      "quality inspection",
+      "simple"
+    ],
+    [
+      "technical_support",
+      "patch deployment",
+      "simple"
+    ],
+    [
+      "data_engineering",
+      "data validation",
+      "simple"
+    ],
+    [
+      "marketing",
+      "campaign launch",
+      "simple"
+    ],
+    [
+      "supply_chain",
+      "shipment tracking",
+      "simple"
+    ],
+    [
+      "it_support",
+      "software installation",
+      "simple"
+    ],
+    [
+      "lab_process",
+      "equipment calibration",
+      "simple"
+    ],
+    [
+      "student_services",
+      "scholarship application",
+      "complex"
+    ],
+    [
+      "hr",
+      "training enrollment",
+      "simple"
+    ],
+    [
+      "patient_care",
+      "patient admission",
+      "complex"
+    ],
+    [
+      "student_services",
+      "grade submission",
+      "simple"
+    ],
+    [
+      "technical_support",
+      "issue diagnosis",
+      "moderate"
+    ],
+    [
+      "personal_finance",
+      "investment decision",
+      "simple"
+    ],
+    [
+      "supply_chain",
+      "order fulfillment",
+      "complex"
+    ],
+    [
+      "medical_admin",
+      "referral handling",
+      "moderate"
+    ],
+    [
+      "it_support",
+      "ticket resolution",
+      "complex"
+    ],
+    [
+      "travel",
+      "travel reimbursement",
+      "moderate"
+    ],
+    [
+      "security",
+      "password reset",
+      "complex"
+    ],
+    [
+      "hr",
+      "leave approval",
+      "complex"
+    ],
+    [
+      "compliance",
+      "violation handling",
+      "simple"
+    ],
+    [
+      "hr",
+      "performance review",
+      "simple"
+    ],
+    [
+      "data_engineering",
+      "query optimization",
+      "moderate"
+    ],
+    [
+      "personal_finance",
+      "investment decision",
+      "complex"
+    ],
+    [
+      "technical_support",
+      "issue diagnosis",
+      "complex"
+    ],
+    [
+      "warehouse",
+      "inventory counting",
+      "complex"
+    ],
+    [
+      "personal_finance",
+      "insurance claim",
+      "simple"
+    ],
+    [
+      "customer_support",
+      "feedback collection",
+      "simple"
+    ],
+    [
+      "travel",
+      "booking confirmation",
+      "moderate"
+    ],
+    [
+      "data_engineering",
+      "data backup",
+      "simple"
+    ],
+    [
+      "marketing",
+      "social media posting",
+      "moderate"
+    ],
+    [
+      "customer_support",
+      "refund processing",
+      "moderate"
+    ],
+    [
+      "technical_support",
+      "remote troubleshooting",
+      "complex"
+    ],
+    [
+      "security",
+      "access request",
+      "simple"
+    ],
+    [
+      "government",
+      "license renewal",
+      "complex"
+    ],
+    [
+      "security",
+      "security audit",
+      "simple"
+    ],
+    [
+      "property_management",
+      "maintenance request",
+      "simple"
+    ],
+    [
+      "property_management",
+      "move-out inspection",
+      "simple"
+    ],
+    [
+      "data_engineering",
+      "query optimization",
+      "simple"
+    ],
+    [
+      "lab_process",
+      "result reporting",
+      "moderate"
+    ],
+    [
+      "personal_finance",
+      "debt payment",
+      "complex"
+    ],
+    [
+      "event_planning",
+      "venue selection",
+      "simple"
+    ],
+    [
+      "academic",
+      "publication process",
+      "moderate"
+    ],
+    [
+      "supply_chain",
+      "supplier selection",
+      "moderate"
+    ],
+    [
+      "legal",
+      "legal research",
+      "complex"
+    ],
+    [
+      "technical_support",
+      "user training",
+      "simple"
+    ],
+    [
+      "restaurant",
+      "inventory ordering",
+      "complex"
+    ],
+    [
+      "manufacturing",
+      "inventory restocking",
+      "complex"
+    ],
+    [
+      "medical_admin",
+      "medical records transfer",
+      "simple"
+    ],
+    [
+      "student_services",
+      "scholarship application",
+      "simple"
+    ],
+    [
+      "student_services",
+      "grade submission",
+      "moderate"
+    ],
+    [
+      "academic",
+      "research proposal",
+      "simple"
+    ],
+    [
+      "devops",
+      "server deployment",
+      "complex"
+    ],
+    [
+      "academic",
+      "thesis submission",
+      "simple"
+    ],
+    [
+      "finance",
+      "budget planning",
+      "moderate"
+    ],
+    [
+      "hr",
+      "training enrollment",
+      "complex"
+    ],
+    [
+      "finance",
+      "audit preparation",
+      "simple"
+    ],
+    [
+      "government",
+      "civic complaint",
+      "simple"
+    ],
+    [
+      "real_estate",
+      "closing process",
+      "simple"
+    ],
+    [
+      "software_development",
+      "feature deployment",
+      "moderate"
+    ],
+    [
+      "data_engineering",
+      "ETL pipeline",
+      "simple"
+    ],
+    [
+      "it_support",
+      "ticket resolution",
+      "simple"
+    ],
+    [
+      "hotel",
+      "reservation booking",
+      "complex"
+    ],
+    [
+      "security",
+      "password reset",
+      "simple"
+    ],
+    [
+      "patient_care",
+      "medication dispensing",
+      "simple"
+    ],
+    [
+      "marketing",
+      "email marketing",
+      "complex"
+    ],
+    [
+      "sales",
+      "deal closing",
+      "complex"
+    ],
+    [
+      "hotel",
+      "check-out process",
+      "moderate"
+    ],
+    [
+      "security",
+      "security audit",
+      "complex"
+    ],
+    [
+      "business_process",
+      "contract negotiation",
+      "moderate"
+    ],
+    [
+      "emergency_services",
+      "evacuation procedure",
+      "complex"
+    ],
+    [
+      "emergency_services",
+      "incident reporting",
+      "simple"
+    ],
+    [
+      "data_engineering",
+      "schema migration",
+      "complex"
+    ],
+    [
+      "finance",
+      "financial reporting",
+      "complex"
+    ],
+    [
+      "software_development",
+      "sprint planning",
+      "complex"
+    ],
+    [
+      "school_admin",
+      "parent notification",
+      "moderate"
+    ],
+    [
+      "customer_support",
+      "service recovery",
+      "simple"
+    ],
+    [
+      "restaurant",
+      "food preparation",
+      "moderate"
+    ],
+    [
+      "warehouse",
+      "receiving goods",
+      "complex"
+    ],
+    [
+      "software_development",
+      "bug fixing",
+      "moderate"
+    ],
+    [
+      "lab_process",
+      "equipment calibration",
+      "moderate"
+    ],
+    [
+      "hr",
+      "performance review",
+      "complex"
+    ],
+    [
+      "property_management",
+      "tenant screening",
+      "complex"
+    ],
+    [
+      "school_admin",
+      "fee collection",
+      "moderate"
+    ],
+    [
+      "data_engineering",
+      "ETL pipeline",
+      "complex"
+    ],
+    [
+      "customer_support",
+      "refund processing",
+      "simple"
+    ],
+    [
+      "medical_admin",
+      "appointment booking",
+      "complex"
+    ],
+    [
+      "finance",
+      "audit preparation",
+      "complex"
+    ],
+    [
+      "travel",
+      "visa application",
+      "simple"
+    ],
+    [
+      "data_engineering",
+      "data validation",
+      "complex"
+    ],
+    [
+      "real_estate",
+      "buyer qualification",
+      "complex"
+    ],
+    [
+      "compliance",
+      "policy approval",
+      "complex"
+    ],
+    [
+      "compliance",
+      "violation handling",
+      "complex"
+    ],
+    [
+      "restaurant",
+      "inventory ordering",
+      "simple"
+    ],
+    [
+      "emergency_services",
+      "resource allocation",
+      "simple"
+    ],
+    [
+      "hotel",
+      "housekeeping assignment",
+      "moderate"
+    ],
+    [
+      "medical_admin",
+      "insurance verification",
+      "complex"
+    ],
+    [
+      "emergency_services",
+      "evacuation procedure",
+      "moderate"
+    ],
+    [
+      "compliance",
+      "regulatory filing",
+      "complex"
+    ],
+    [
+      "property_management",
+      "move-out inspection",
+      "complex"
+    ],
+    [
+      "compliance",
+      "policy approval",
+      "simple"
+    ],
+    [
+      "personal_finance",
+      "loan application",
+      "simple"
+    ],
+    [
+      "supply_chain",
+      "returns processing",
+      "complex"
+    ],
+    [
+      "school_admin",
+      "parent notification",
+      "complex"
+    ],
+    [
+      "travel",
+      "trip planning",
+      "moderate"
+    ],
+    [
+      "warehouse",
+      "order picking",
+      "complex"
+    ],
+    [
+      "student_services",
+      "graduation clearance",
+      "moderate"
+    ],
+    [
+      "hotel",
+      "guest check-in",
+      "simple"
+    ],
+    [
+      "medical_admin",
+      "insurance verification",
+      "simple"
+    ],
+    [
+      "restaurant",
+      "table management",
+      "complex"
+    ],
+    [
+      "technical_support",
+      "user training",
+      "moderate"
+    ],
+    [
+      "sales",
+      "lead qualification",
+      "moderate"
+    ],
+    [
+      "hr",
+      "training enrollment",
+      "moderate"
+    ],
+    [
+      "government",
+      "license renewal",
+      "simple"
+    ],
+    [
+      "medical_admin",
+      "referral handling",
+      "simple"
+    ],
+    [
+      "hr",
+      "hiring process",
+      "simple"
+    ],
+    [
+      "government",
+      "permit application",
+      "simple"
+    ],
+    [
+      "lab_process",
+      "quality control",
+      "complex"
+    ],
+    [
+      "manufacturing",
+      "defect handling",
+      "complex"
+    ],
+    [
+      "event_planning",
+      "vendor booking",
+      "moderate"
+    ],
+    [
+      "academic",
+      "thesis submission",
+      "complex"
+    ],
+    [
+      "data_engineering",
+      "schema migration",
+      "simple"
+    ],
+    [
+      "customer_support",
+      "escalation management",
+      "moderate"
+    ],
+    [
+      "school_admin",
+      "report card generation",
+      "simple"
+    ],
+    [
+      "government",
+      "benefit eligibility",
+      "complex"
+    ],
+    [
+      "hotel",
+      "reservation booking",
+      "moderate"
+    ],
+    [
+      "hotel",
+      "room service",
+      "complex"
+    ],
+    [
+      "medical_admin",
+      "billing process",
+      "complex"
+    ],
+    [
+      "hotel",
+      "reservation booking",
+      "simple"
+    ],
+    [
+      "school_admin",
+      "report card generation",
+      "complex"
+    ],
+    [
+      "software_development",
+      "code review",
+      "moderate"
+    ],
+    [
+      "sales",
+      "proposal creation",
+      "moderate"
+    ],
+    [
+      "travel",
+      "travel reimbursement",
+      "complex"
+    ],
+    [
+      "technical_support",
+      "patch deployment",
+      "complex"
+    ],
+    [
+      "emergency_services",
+      "incident reporting",
+      "complex"
+    ],
+    [
+      "data_engineering",
+      "ETL pipeline",
+      "moderate"
+    ],
+    [
+      "school_admin",
+      "enrollment verification",
+      "simple"
+    ],
+    [
+      "government",
+      "public records request",
+      "complex"
+    ],
+    [
+      "compliance",
+      "regulatory filing",
+      "simple"
+    ],
+    [
+      "student_services",
+      "transcript request",
+      "simple"
+    ],
+    [
+      "school_admin",
+      "fee collection",
+      "simple"
+    ],
+    [
+      "devops",
+      "backup restoration",
+      "simple"
+    ],
+    [
+      "marketing",
+      "brand review",
+      "moderate"
+    ],
+    [
+      "personal_finance",
+      "insurance claim",
+      "moderate"
+    ],
+    [
+      "emergency_services",
+      "resource allocation",
+      "moderate"
+    ],
+    [
+      "academic",
+      "publication process",
+      "complex"
+    ],
+    [
+      "restaurant",
+      "order taking",
+      "complex"
+    ],
+    [
+      "it_support",
+      "network troubleshooting",
+      "complex"
+    ],
+    [
+      "real_estate",
+      "offer negotiation",
+      "complex"
+    ],
+    [
+      "legal",
+      "legal research",
+      "moderate"
+    ],
+    [
+      "school_admin",
+      "attendance tracking",
+      "simple"
+    ],
+    [
+      "hr",
+      "leave approval",
+      "simple"
+    ],
+    [
+      "academic",
+      "peer review",
+      "simple"
+    ],
+    [
+      "legal",
+      "dispute resolution",
+      "simple"
+    ],
+    [
+      "supply_chain",
+      "shipment tracking",
+      "complex"
+    ],
+    [
+      "supply_chain",
+      "order fulfillment",
+      "simple"
+    ],
+    [
+      "hotel",
+      "guest check-in",
+      "complex"
+    ],
+    [
+      "it_support",
+      "ticket resolution",
+      "moderate"
+    ],
+    [
+      "property_management",
+      "lease renewal",
+      "complex"
+    ],
+    [
+      "security",
+      "access request",
+      "moderate"
+    ],
+    [
+      "patient_care",
+      "patient admission",
+      "simple"
+    ],
+    [
+      "emergency_services",
+      "resource allocation",
+      "complex"
+    ],
+    [
+      "marketing",
+      "email marketing",
+      "moderate"
+    ],
+    [
+      "lab_process",
+      "test processing",
+      "complex"
+    ],
+    [
+      "warehouse",
+      "shipping preparation",
+      "simple"
+    ],
+    [
+      "hotel",
+      "guest check-in",
+      "moderate"
+    ],
+    [
+      "event_planning",
+      "guest management",
+      "simple"
+    ],
+    [
+      "lab_process",
+      "equipment calibration",
+      "complex"
+    ],
+    [
+      "marketing",
+      "email marketing",
+      "simple"
+    ],
+    [
+      "real_estate",
+      "property listing",
+      "moderate"
+    ],
+    [
+      "sales",
+      "customer follow-up",
+      "moderate"
+    ],
+    [
+      "customer_support",
+      "service recovery",
+      "complex"
+    ],
+    [
+      "academic",
+      "thesis submission",
+      "moderate"
+    ],
+    [
+      "school_admin",
+      "enrollment verification",
+      "complex"
+    ],
+    [
+      "medical_admin",
+      "appointment booking",
+      "moderate"
+    ],
+    [
+      "restaurant",
+      "order taking",
+      "simple"
+    ],
+    [
+      "restaurant",
+      "food preparation",
+      "complex"
+    ],
+    [
+      "supply_chain",
+      "order fulfillment",
+      "moderate"
+    ],
+    [
+      "restaurant",
+      "payment processing",
+      "moderate"
+    ],
+    [
+      "manufacturing",
+      "equipment maintenance",
+      "simple"
+    ],
+    [
+      "business_process",
+      "customer onboarding",
+      "simple"
+    ],
+    [
+      "lab_process",
+      "result reporting",
+      "complex"
+    ],
+    [
+      "technical_support",
+      "patch deployment",
+      "moderate"
+    ],
+    [
+      "event_planning",
+      "guest management",
+      "moderate"
+    ],
+    [
+      "compliance",
+      "audit response",
+      "moderate"
+    ],
+    [
+      "security",
+      "vulnerability assessment",
+      "moderate"
+    ],
+    [
+      "personal_finance",
+      "loan application",
+      "moderate"
+    ],
+    [
+      "government",
+      "license renewal",
+      "moderate"
+    ],
+    [
+      "event_planning",
+      "event execution",
+      "complex"
+    ],
+    [
+      "warehouse",
+      "storage allocation",
+      "moderate"
+    ],
+    [
+      "emergency_services",
+      "911 dispatch",
+      "moderate"
+    ],
+    [
+      "medical_admin",
+      "insurance verification",
+      "moderate"
+    ],
+    [
+      "devops",
+      "incident response",
+      "simple"
+    ],
+    [
+      "medical_admin",
+      "medical records transfer",
+      "complex"
+    ],
+    [
+      "restaurant",
+      "food preparation",
+      "simple"
+    ],
+    [
+      "school_admin",
+      "attendance tracking",
+      "complex"
+    ],
+    [
+      "real_estate",
+      "buyer qualification",
+      "moderate"
+    ],
+    [
+      "restaurant",
+      "payment processing",
+      "complex"
+    ],
+    [
+      "compliance",
+      "audit response",
+      "complex"
+    ],
+    [
+      "legal",
+      "dispute resolution",
+      "complex"
+    ],
+    [
+      "travel",
+      "booking confirmation",
+      "complex"
+    ],
+    [
+      "security",
+      "security audit",
+      "moderate"
+    ],
+    [
+      "warehouse",
+      "inventory counting",
+      "simple"
+    ],
+    [
+      "personal_finance",
+      "retirement planning",
+      "moderate"
+    ],
+    [
+      "manufacturing",
+      "production planning",
+      "moderate"
+    ],
+    [
+      "government",
+      "permit application",
+      "complex"
+    ],
+    [
+      "personal_finance",
+      "retirement planning",
+      "complex"
+    ],
+    [
+      "patient_care",
+      "follow-up scheduling",
+      "moderate"
+    ],
+    [
+      "manufacturing",
+      "quality inspection",
+      "complex"
+    ],
+    [
+      "academic",
+      "peer review",
+      "complex"
+    ],
+    [
+      "technical_support",
+      "system restoration",
+      "complex"
+    ],
+    [
+      "student_services",
+      "course registration",
+      "simple"
+    ],
+    [
+      "event_planning",
+      "event execution",
+      "simple"
+    ],
+    [
+      "manufacturing",
+      "production planning",
+      "complex"
+    ],
+    [
+      "data_engineering",
+      "data backup",
+      "moderate"
+    ],
+    [
+      "business_process",
+      "contract negotiation",
+      "simple"
+    ],
+    [
+      "marketing",
+      "campaign launch",
+      "moderate"
+    ],
+    [
+      "sales",
+      "proposal creation",
+      "complex"
+    ],
+    [
+      "student_services",
+      "graduation clearance",
+      "complex"
+    ],
+    [
+      "marketing",
+      "social media posting",
+      "complex"
+    ],
+    [
+      "it_support",
+      "software installation",
+      "complex"
+    ],
+    [
+      "event_planning",
+      "vendor booking",
+      "complex"
+    ],
+    [
+      "lab_process",
+      "sample collection",
+      "complex"
+    ],
+    [
+      "business_process",
+      "customer onboarding",
+      "moderate"
+    ],
+    [
+      "marketing",
+      "brand review",
+      "complex"
+    ],
+    [
+      "business_process",
+      "customer onboarding",
+      "complex"
+    ],
+    [
+      "marketing",
+      "content approval",
+      "moderate"
+    ],
+    [
+      "compliance",
+      "policy approval",
+      "moderate"
+    ],
+    [
+      "real_estate",
+      "property listing",
+      "simple"
+    ],
+    [
+      "property_management",
+      "move-out inspection",
+      "moderate"
+    ],
+    [
+      "travel",
+      "visa application",
+      "moderate"
+    ],
+    [
+      "real_estate",
+      "inspection coordination",
+      "moderate"
+    ],
+    [
+      "customer_support",
+      "escalation management",
+      "simple"
+    ],
+    [
+      "technical_support",
+      "remote troubleshooting",
+      "simple"
+    ],
+    [
+      "travel",
+      "trip planning",
+      "complex"
+    ],
+    [
+      "hr",
+      "leave approval",
+      "moderate"
+    ],
+    [
+      "real_estate",
+      "inspection coordination",
+      "complex"
+    ],
+    [
+      "warehouse",
+      "shipping preparation",
+      "moderate"
+    ],
+    [
+      "real_estate",
+      "buyer qualification",
+      "simple"
+    ],
+    [
+      "devops",
+      "server deployment",
+      "moderate"
+    ],
+    [
+      "property_management",
+      "lease renewal",
+      "simple"
+    ],
+    [
+      "customer_support",
+      "feedback collection",
+      "moderate"
+    ],
+    [
+      "compliance",
+      "risk assessment",
+      "simple"
+    ],
+    [
+      "software_development",
+      "bug fixing",
+      "simple"
+    ],
+    [
+      "academic",
+      "research proposal",
+      "complex"
+    ],
+    [
+      "government",
+      "civic complaint",
+      "complex"
+    ],
+    [
+      "school_admin",
+      "parent notification",
+      "simple"
+    ],
+    [
+      "government",
+      "public records request",
+      "moderate"
+    ],
+    [
+      "event_planning",
+      "guest management",
+      "complex"
+    ],
+    [
+      "software_development",
+      "sprint planning",
+      "simple"
+    ],
+    [
+      "patient_care",
+      "follow-up scheduling",
+      "simple"
+    ],
+    [
+      "compliance",
+      "risk assessment",
+      "moderate"
+    ],
+    [
+      "property_management",
+      "lease renewal",
+      "moderate"
+    ],
+    [
+      "lab_process",
+      "sample collection",
+      "moderate"
+    ],
+    [
+      "it_support",
+      "account creation",
+      "complex"
+    ],
+    [
+      "academic",
+      "grant application",
+      "moderate"
+    ],
+    [
+      "devops",
+      "monitoring setup",
+      "moderate"
+    ],
+    [
+      "restaurant",
+      "payment processing",
+      "simple"
+    ],
+    [
+      "software_development",
+      "release management",
+      "moderate"
+    ],
+    [
+      "warehouse",
+      "storage allocation",
+      "simple"
+    ],
+    [
+      "event_planning",
+      "post-event review",
+      "simple"
+    ],
+    [
+      "data_engineering",
+      "query optimization",
+      "complex"
+    ],
+    [
+      "software_development",
+      "feature deployment",
+      "complex"
+    ],
+    [
+      "warehouse",
+      "inventory counting",
+      "moderate"
+    ],
+    [
+      "patient_care",
+      "discharge process",
+      "moderate"
+    ],
+    [
+      "sales",
+      "deal closing",
+      "simple"
+    ],
+    [
+      "devops",
+      "server deployment",
+      "simple"
+    ],
+    [
+      "supply_chain",
+      "demand forecasting",
+      "complex"
+    ],
+    [
+      "software_development",
+      "bug fixing",
+      "complex"
+    ],
+    [
+      "security",
+      "vulnerability assessment",
+      "complex"
+    ],
+    [
+      "technical_support",
+      "remote troubleshooting",
+      "moderate"
+    ],
+    [
+      "compliance",
+      "risk assessment",
+      "complex"
+    ],
+    [
+      "travel",
+      "travel reimbursement",
+      "simple"
+    ],
+    [
+      "warehouse",
+      "order picking",
+      "simple"
+    ],
+    [
+      "manufacturing",
+      "quality inspection",
+      "moderate"
+    ],
+    [
+      "security",
+      "password reset",
+      "moderate"
+    ],
+    [
+      "event_planning",
+      "vendor booking",
+      "simple"
+    ],
+    [
+      "travel",
+      "trip planning",
+      "simple"
+    ],
+    [
+      "sales",
+      "pipeline management",
+      "simple"
+    ],
+    [
+      "real_estate",
+      "inspection coordination",
+      "simple"
+    ],
+    [
+      "student_services",
+      "transcript request",
+      "complex"
+    ],
+    [
+      "real_estate",
+      "closing process",
+      "moderate"
+    ],
+    [
+      "customer_support",
+      "complaint handling",
+      "moderate"
+    ],
+    [
+      "restaurant",
+      "table management",
+      "simple"
+    ],
+    [
+      "legal",
+      "case filing",
+      "complex"
+    ],
+    [
+      "devops",
+      "monitoring setup",
+      "simple"
+    ],
+    [
+      "manufacturing",
+      "equipment maintenance",
+      "moderate"
+    ],
+    [
+      "devops",
+      "CI/CD pipeline",
+      "complex"
+    ],
+    [
+      "technical_support",
+      "system restoration",
+      "simple"
+    ],
+    [
+      "travel",
+      "booking confirmation",
+      "simple"
+    ],
+    [
+      "finance",
+      "budget planning",
+      "simple"
+    ],
+    [
+      "emergency_services",
+      "evacuation procedure",
+      "simple"
+    ],
+    [
+      "medical_admin",
+      "referral handling",
+      "complex"
+    ],
+    [
+      "customer_support",
+      "complaint handling",
+      "complex"
+    ],
+    [
+      "emergency_services",
+      "recovery coordination",
+      "simple"
+    ],
+    [
+      "devops",
+      "monitoring setup",
+      "complex"
+    ],
+    [
+      "it_support",
+      "account creation",
+      "simple"
+    ],
+    [
+      "customer_support",
+      "feedback collection",
+      "complex"
+    ],
+    [
+      "customer_support",
+      "refund processing",
+      "complex"
+    ],
+    [
+      "travel",
+      "itinerary creation",
+      "moderate"
+    ],
+    [
+      "security",
+      "incident handling",
+      "simple"
+    ],
+    [
+      "sales",
+      "customer follow-up",
+      "simple"
+    ],
+    [
+      "academic",
+      "peer review",
+      "moderate"
+    ],
+    [
+      "travel",
+      "visa application",
+      "complex"
+    ],
+    [
+      "business_process",
+      "vendor evaluation",
+      "simple"
+    ],
+    [
+      "government",
+      "civic complaint",
+      "moderate"
+    ],
+    [
+      "academic",
+      "grant application",
+      "complex"
+    ],
+    [
+      "finance",
+      "audit preparation",
+      "moderate"
+    ],
+    [
+      "finance",
+      "expense reimbursement",
+      "complex"
+    ],
+    [
+      "emergency_services",
+      "recovery coordination",
+      "moderate"
+    ],
+    [
+      "it_support",
+      "hardware provisioning",
+      "moderate"
+    ],
+    [
+      "it_support",
+      "network troubleshooting",
+      "moderate"
+    ],
+    [
+      "finance",
+      "expense reimbursement",
+      "simple"
+    ],
+    [
+      "supply_chain",
+      "returns processing",
+      "simple"
+    ],
+    [
+      "business_process",
+      "invoice processing",
+      "complex"
+    ],
+    [
+      "restaurant",
+      "order taking",
+      "moderate"
+    ],
+    [
+      "data_engineering",
+      "data validation",
+      "moderate"
+    ],
+    [
+      "marketing",
+      "content approval",
+      "simple"
+    ],
+    [
+      "patient_care",
+      "patient admission",
+      "moderate"
+    ],
+    [
+      "sales",
+      "lead qualification",
+      "complex"
+    ],
+    [
+      "marketing",
+      "campaign launch",
+      "complex"
+    ],
+    [
+      "patient_care",
+      "medication dispensing",
+      "complex"
+    ],
+    [
+      "legal",
+      "legal research",
+      "simple"
+    ]
+  ],
+  "domain_counts": {
+    "devops": 15,
+    "sales": 17,
+    "compliance": 15,
+    "restaurant": 15,
+    "warehouse": 15,
+    "legal": 15,
+    "government": 15,
+    "hotel": 15,
+    "medical_admin": 15,
+    "emergency_services": 16,
+    "data_engineering": 16,
+    "technical_support": 16,
+    "supply_chain": 17,
+    "travel": 16,
+    "customer_support": 15,
+    "patient_care": 15,
+    "property_management": 15,
+    "security": 15,
+    "manufacturing": 15,
+    "hr": 15,
+    "lab_process": 15,
+    "it_support": 18,
+    "marketing": 15,
+    "software_development": 16,
+    "real_estate": 15,
+    "school_admin": 16,
+    "business_process": 15,
+    "student_services": 15,
+    "event_planning": 18,
+    "finance": 15,
+    "personal_finance": 16,
+    "academic": 18
+  }
+}

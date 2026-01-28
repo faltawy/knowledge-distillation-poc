@@ -1,0 +1,51 @@
+[
+  {
+    "description": "System loads records, checks formats, validates constraints, flags errors, and reports results.",
+    "mermaid": "flowchart TD\n    A[Load Records] --> B[Check Formats]\n    B --> C[Validate Constraints]\n    C --> D{Valid?}\n    D -->|Yes| E[Report Success]\n    D -->|No| F[Flag Errors]",
+    "domain": "data_engineering",
+    "topic": "data validation",
+    "complexity": "moderate"
+  },
+  {
+    "description": "Creator submits content, manager reviews, and approves for publication.",
+    "mermaid": "flowchart TD\n    A[Submit Content] --> B[Manager Reviews]\n    B --> C[Approve Publication]",
+    "domain": "marketing",
+    "topic": "content approval",
+    "complexity": "simple"
+  },
+  {
+    "description": "Patient arrives, clerk registers information, nurse assesses vitals, doctor reviews case, and bed is assigned.",
+    "mermaid": "flowchart TD\n    A[Patient Arrives] --> B[Register Information]\n    B --> C[Assess Vitals]\n    C --> D[Doctor Reviews]\n    D --> E[Assign Bed]",
+    "domain": "patient_care",
+    "topic": "patient admission",
+    "complexity": "moderate"
+  },
+  {
+    "description": "Rep receives lead, researches company, scores potential, verifies budget, confirms authority, assesses need, qualifies opportunity, and moves to pipeline.",
+    "mermaid": "flowchart TD\n    A[Receive Lead] --> B[Research Company]\n    B --> C[Score Potential]\n    C --> D[Verify Budget]\n    D --> E{Qualified?}\n    E -->|Yes| F[Confirm Authority]\n    E -->|No| G[Disqualify Lead]\n    F --> H[Move to Pipeline]",
+    "domain": "sales",
+    "topic": "lead qualification",
+    "complexity": "complex"
+  },
+  {
+    "description": "Team finalizes strategy, creates assets, schedules content, configures targeting, launches campaign, monitors metrics, optimizes performance, and reports results.",
+    "mermaid": "flowchart TD\n    A[Finalize Strategy] --> B[Create Assets]\n    B --> C[Schedule Content]\n    C --> D[Configure Targeting]\n    D --> E[Launch Campaign]\n    E --> F{Performing?}\n    F -->|Yes| G[Report Results]\n    F -->|No| H[Optimize Performance]",
+    "domain": "marketing",
+    "topic": "campaign launch",
+    "complexity": "complex"
+  },
+  {
+    "description": "Pharmacist receives order, verifies prescription, checks interactions, prepares medication, labels package, double-checks dosage, and dispenses to patient.",
+    "mermaid": "flowchart TD\n    A[Receive Order] --> B[Verify Prescription]\n    B --> C[Check Interactions]\n    C --> D{Safe?}\n    D -->|Yes| E[Prepare Medication]\n    D -->|No| F[Alert Physician]\n    E --> G[Label Package]\n    G --> H[Dispense to Patient]",
+    "domain": "patient_care",
+    "topic": "medication dispensing",
+    "complexity": "complex"
+  },
+  {
+    "description": "Paralegal searches databases, reviews cases, and summarizes findings.",
+    "mermaid": "flowchart TD\n    A[Search Databases] --> B[Review Cases]\n    B --> C[Summarize Findings]",
+    "domain": "legal",
+    "topic": "legal research",
+    "complexity": "simple"
+  }
+]
