@@ -213,18 +213,6 @@ The downside of synthetic data is that it is only as good as the teacher model. 
 
 The data generation covers 31 domains, each with 5 topics and 3 complexity levels (simple, moderate, complex). This creates 465 unique combinations, ensuring the student sees diverse examples during training.
 
-**Domains include:**
-
-| Category | Domains |
-|----------|---------|
-| Business | business_process, sales, marketing, hr, finance |
-| Technical | software_development, devops, data_engineering, security, it_support |
-| Healthcare | patient_care, medical_admin, lab_process |
-| Education | student_services, academic, school_admin |
-| Operations | manufacturing, supply_chain, warehouse |
-| Services | customer_support, technical_support, restaurant, hotel |
-| Other | legal, compliance, real_estate, property_management, government, emergency_services, personal_finance, event_planning, travel |
-
 **Complexity levels control the flowchart structure:**
 
 | Level | Node Count | Description |
