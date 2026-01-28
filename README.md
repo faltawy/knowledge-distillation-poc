@@ -36,10 +36,7 @@ This is not production code. It is an exploration of the distillation concept, d
    - [Prerequisites](#prerequisites)
    - [Quick Start](#quick-start)
    - [Commands Reference](#commands-reference)
-8. [Project Structure](#project-structure)
-9. [Limitations and What This Does Not Cover](#limitations-and-what-this-does-not-cover)
-10. [Further Reading](#further-reading)
-
+8. [Limitations and What This Does Not Cover](#limitations-and-what-this-does-not-cover)
 ---
 
 ## Introduction
@@ -274,55 +271,6 @@ Fine-tuning a language model traditionally means updating all of its parameters.
 LoRA (Low-Rank Adaptation) takes a different approach. Instead of updating all parameters, it freezes the base model and adds small trainable matrices alongside the original weights. Only these added matrices are updated during training.
 
 The intuition behind LoRA is that task-specific adaptations are "low-rank." When you fine-tune a model for a specific task, you are not fundamentally restructuring its knowledge. You are making a relatively small adjustment to how it processes inputs and generates outputs. This adjustment can be captured by matrices much smaller than the original weights.
-
-**Practical benefits of LoRA:**
-
-- **Memory efficiency**: Only the small adapter matrices need gradients and optimizer states
-- **Storage efficiency**: The adapter is typically a few megabytes, not gigabytes
-- **Base model preservation**: The original model is untouched; you can swap adapters without reloading
-- **Lower data requirements**: Updating fewer parameters means you need less data to avoid overfitting
-
-### How LoRA Works
-
-LoRA modifies transformer attention layers by adding parallel low-rank matrices. For a weight matrix W with dimensions (d × k), LoRA adds two smaller matrices:
-
-- A: (d × r) "down-projection"
-- B: (r × k) "up-projection"
-
-Where r (the rank) is much smaller than d or k. The output becomes:
-
-```
-output = W*x + B*A*x
-```
-
-The original weight matrix W stays frozen. Only A and B are trained. The rank r controls the capacity of the adaptation. Higher rank means more expressive power but more parameters. Lower rank is more constrained but more efficient.
-
-In this project, we use r=16 with alpha=32 (a scaling factor). This adds roughly 0.5% additional parameters to the model, about 8 million trainable parameters on top of 1.5 billion frozen ones.
-
-At inference time, the adapter weights can be merged back into the base weights, so there is no additional latency cost.
-
-### Configuration Choices
-
-The training configuration in this project uses standard starting points for LoRA fine-tuning:
-
-| Parameter | Value | Notes |
-|-----------|-------|-------|
-| Base model | Qwen/Qwen2.5-1.5B-Instruct | Good balance of size and capability |
-| LoRA rank (r) | 16 | Standard starting point |
-| LoRA alpha | 32 | Scaling factor, typically 2×r |
-| LoRA dropout | 0.05 | Light regularization |
-| Target modules | q_proj, k_proj, v_proj, o_proj | All attention projections |
-| Epochs | 3 | Enough passes to learn patterns |
-| Learning rate | 2e-4 | Standard for LoRA |
-| Batch size | 4 | Per device |
-| Gradient accumulation | 4 | Effective batch size of 16 |
-| Warmup ratio | 0.03 | 3% of steps for warmup |
-| Precision | FP16 | Half precision for efficiency |
-
-These are reasonable defaults, not heavily tuned values. A production system would benefit from hyperparameter optimization.
-
-See `config.py` for the full configuration and `training/train.py` for the training loop.
-
 ---
 
 ## Phase 3: Inference and Evaluation
@@ -405,38 +353,6 @@ python -m training.chat
 
 ---
 
-## Project Structure
-
-```
-├── config.py                    # Central configuration (paths, hyperparameters)
-├── data_generation/
-│   ├── claude_helper.py         # CLI for data generation workflow
-│   ├── domains.py               # Domain and topic definitions
-│   ├── prompts.py               # Prompt templates
-│   └── validator.py             # Mermaid validation logic
-├── training/
-│   ├── train.py                 # LoRA fine-tuning with SFTTrainer
-│   ├── dataset.py               # Data loading and formatting
-│   ├── inference.py             # Model loading and generation
-│   ├── evaluate.py              # Evaluation metrics and comparison
-│   └── chat.py                  # Interactive chat interface
-├── data/
-│   ├── raw/                     # Raw generated examples
-│   ├── training_data.jsonl      # Training split (90%)
-│   └── validation_data.jsonl    # Validation split (10%)
-└── outputs/
-    └── qwen-mermaid-lora/       # Saved adapter weights
-```
-
-**Key files:**
-
-- `config.py`: All configuration in one place. Modify hyperparameters, paths, and constraints here.
-- `data_generation/validator.py`: The validation logic that ensures data quality.
-- `training/train.py`: The training loop using Hugging Face's SFTTrainer and PEFT.
-- `training/evaluate.py`: Comprehensive evaluation comparing fine-tuned vs base model.
-
----
-
 ## Limitations and What This Does Not Cover
 
 This is exploratory code, not production-ready. Several limitations are worth noting:
@@ -454,19 +370,3 @@ This is exploratory code, not production-ready. Several limitations are worth no
 **No comparison with alternatives.** The project does not compare distillation against other approaches (few-shot prompting, retrieval augmentation, different base models).
 
 ---
-
-## Further Reading
-
-**Knowledge Distillation:**
-- Hinton, Vinyals, Dean. "Distilling the Knowledge in a Neural Network" (2015). The foundational paper on knowledge distillation.
-
-**LoRA:**
-- Hu et al. "LoRA: Low-Rank Adaptation of Large Language Models" (2021). The original LoRA paper explaining the technique.
-
-**Libraries used:**
-- [PEFT](https://huggingface.co/docs/peft) - Hugging Face library for parameter-efficient fine-tuning
-- [TRL](https://huggingface.co/docs/trl) - Transformers Reinforcement Learning, provides SFTTrainer
-- [mermaid-py](https://github.com/ouuan/mermaid-py) - Python wrapper for Mermaid diagram rendering
-
-**Model:**
-- [Qwen 2.5](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct) - The base model used as the student in this pipeline
