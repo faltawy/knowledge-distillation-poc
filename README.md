@@ -238,11 +238,7 @@ Generated examples go through a two-layer validation process before being added 
 
 **Syntax validation** (slower, external) verifies the Mermaid code is actually valid:
 
-- Uses the `mermaid-py` library to hit the mermaid.ink rendering service
-- An HTTP 200 response confirms the syntax is correct
-- Invalid syntax is rejected with an error message
-
-This two-layer approach balances speed and thoroughness. Constraint validation catches obvious structural problems immediately. Syntax validation catches subtle issues that constraint checking might miss.
+- Uses the `mermaid-py` library for validation 
 
 The principle here is "garbage in, garbage out." If invalid examples make it into the training data, the student learns to produce invalid outputs. Strict validation at generation time prevents this.
 
